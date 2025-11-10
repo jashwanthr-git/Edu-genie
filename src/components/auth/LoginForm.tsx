@@ -317,14 +317,6 @@ export function LoginForm({ onSuccess, className }: LoginFormProps) {
           <Link to="/signup" className="text-primary hover:underline">
             Sign up
           </Link>
-          <div className="flex items-center space-x-2 text-xs text-muted-foreground">
-          <p  style={{color: "red"}} className="flex items-center text-l text-foreground font-bold ">
-                **Mail rate limit reached. Please use the following credentials to sign in:, 
-                Email: jashwanthr975@gmail.com 
-                Password: Jashwanth@123**
-                
-              </p>
-          </div>
       </div>
       </CardContent>
     </Card>
